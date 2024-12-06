@@ -10,15 +10,15 @@ set -e # exit on error
 declare -r BRANCH="master"
 
 # Local Dependencies
-declare -r ioquake3="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3.zip"
-declare -r pak="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
-declare -r cd_key="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/q3key"
-declare -r version="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/version"
+declare -r ioquake3="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/dependencies/ioquake3.zip"
+declare -r pak="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/pak@.pk3"
+declare -r cd_key="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/dependencies/baseq3/q3key"
+declare -r version="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/version"
 
-declare -r xpr="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
-declare -r q3_ls="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
-declare -r hd_weapons="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/hd-weapons.pk3"
-declare -r zpack_weapons="https://github.com/diegoulloao/ioquake3-mac-install/raw/$BRANCH/extras/zpack-weapons.pk3"
+declare -r xpr="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/extras/extra-pack-resolution.pk3"
+declare -r q3_ls="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/extras/quake3-live-sounds.pk3"
+declare -r hd_weapons="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/extras/hd-weapons.pk3"
+declare -r zpack_weapons="https://github.com/zhovner/ioquake3-mac-install/raw/$BRANCH/extras/zpack-weapons.pk3"
 
 # External dependencies
 declare -r pak0="https://github.com/nrempel/q3-server/raw/master/baseq3/pak0.pk3"
