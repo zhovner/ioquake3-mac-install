@@ -31,7 +31,7 @@
 **ioquake3** for macOs is installed by running 1 command:
 
 ```sh
-curl -L git.io/ioq3mac | sh
+curl -L https://raw.githubusercontent.com/zhovner/ioquake3-mac-install/refs/heads/master/install.sh | sh
 ```
 
 This is an Universal compilation and it will work for both `arm64` and `x64/32` processors.
@@ -41,7 +41,7 @@ The binary file included here was compiled based on a specific commit from the i
 
 For update your current ioquake3 executable to the latest version please run:
 ```sh
-curl -L bit.ly/ioq3mac-u | sh
+curl -L https://raw.githubusercontent.com/zhovner/ioquake3-mac-install/refs/heads/master/update.sh | sh
 ```
 
 [Read more about the compilation](#information-)
